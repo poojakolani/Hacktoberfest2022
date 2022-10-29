@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Oct 29 13:35:54 2022
-
-@author: DELL
-"""
-
 # Python 3 program for recursive binary search.
 # Modifications needed for the older Python 2 are found in comments.
 
@@ -34,7 +28,7 @@ def binary_search(arr, low, high, x):
 		return -1
 
 # Test array
-arr = [ 2, 3, 4, 10, 40 ]
+arr = [ 2, 3, 12, 10, 4 ]
 x = 10
 
 # Function call
