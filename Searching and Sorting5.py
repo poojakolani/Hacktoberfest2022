@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Oct 29 13:45:48 2022
-
-@author: DELL
-"""
-
 # Python program for implementation of Quicksort Sort
 
 # This implementation utilizes pivot as the last element in the nums list
@@ -58,13 +52,13 @@ def quickSort(array, low, high):
 		quickSort(array, pi + 1, high)
 
 
-data = [1, 7, 4, 1, 10, 9, -2]
+data = [1, 7, -4, 1, 11, 9, -2]
 print("Unsorted Array")
 print(data)
 
-size = len(data)
+s = len(data)
 
-quickSort(data, 0, size - 1)
+quickSort(data, 0, s - 1)
 
 print('Sorted Array in Ascending Order:')
 print(data)
