@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Oct 29 13:45:52 2022
-
-@author: DELL
-"""
-
 # Searching an element in a list/array in python
 # can be simply done using \'in\' operator
 # Example:
@@ -17,11 +11,11 @@ Created on Sat Oct 29 13:45:52 2022
 # If x is present then return its location
 # else return -1
 
-def search(arr, x):
+def search(a, x):
 
-	for i in range(len(arr)):
+	for i in range(len(a)):
 
-		if arr[i] == x:
+		if a[i] == x:
 			return i
 
 	return -1
