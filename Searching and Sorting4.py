@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Oct 29 13:45:49 2022
-
-@author: DELL
-"""
-
 # Recursive Python program for insertion sort
 
 # Recursive function to sort an array using insertion sort
@@ -31,10 +25,7 @@ def insertionSortRecursive(arr, n):
 
 # Driver program to test insertion sort
 if __name__ == '__main__':
-	A = [-7, 11, 6, 0, -3, 5, 10, 2]
+	A = [-7, 11, 16, 0, -3, 5, 10, 2]
 	n = len(A)
 	insertionSortRecursive(A, n)
 	print(A)
-
-# Contributed by Harsh Valecha,
-# Edited by Abraar Masud Nafiz.
